@@ -23,11 +23,12 @@ body{
   max-width: 1018px;
   margin-top: 73px;
   text-align: center;
-  background: white;
+  /* background: white; */
   height: 310px;
-  background-image: url('images/Ireland.jpeg');
-  background-size: cover;
-  border: solid 10px black;
+
+  /* background-image: url('images/Ireland.jpeg');
+  background-size: cover; */
+  /* border: solid 10px black; */
 }
 
 nav {
@@ -55,10 +56,10 @@ nav a:hover{
 }
 
 h1{
-  color: black;
+  color: white;
   -webkit-text-stroke: .3px white;
-  padding-top: 90px;
-  font-size: 45px;
+  /* padding-top: 30px; */
+  font-size: 90px;
   text-orientation: mixed;
   font-family: 'Permanent Marker', cursive;
   display:inline-block;
