@@ -117,6 +117,11 @@ h2{
   font-size: 20px;
 }
 
+#portfolio a:hover{
+  -webkit-transform:scale(1.1);
+  transition:all 0.20s ease;
+}
+
 .project4, .project3, .project2, .project1{
   padding-top: 10px;
   padding-left: 30px;
@@ -191,6 +196,7 @@ ul{
 li{
   padding: 10px;
   text-align: center;
+  font-weight: bold;
 }
 
 footer{
