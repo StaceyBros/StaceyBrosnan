@@ -1,14 +1,15 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 body{
   display: grid;
   flex-direction: column;
   margin: 0 auto;
   padding: 0;
-  background-color: black;
-  background-image: url("images/textured-paper.png");
+  background: linear-gradient(#cccc99, #ecf1f1);
+  /* background-color: black; */
+  /* background-image: url("images/textured-paper.png"); */
 }
 
 .container{
@@ -17,18 +18,35 @@ body{
   min-height: 100vh;
 }
 
+.bg-image {
+  /* margin-top: 73px; */
+  /* max-width: 1018px; */
+  background-color: #ecf1f1;
+  background-image: url("images/textured-paper.png");
+  background-color:
+  border: solid 3px black;
+  box-shadow: 3px 3px 3px 3px black;
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  height: 310px;
+  text-align: center;
+  margin: 0 auto;
+  /* margin-top: 73px; */
+  z-index: -2;
+  overflow: hidden;
+
+  width: 100%;
+  transform: skewY(-5deg);
+  /* position: absolute; */
+  bottom: -150px;
+
+}
 
 .name {
   margin: 0 auto;
-  max-width: 1018px;
-  margin-top: 73px;
   text-align: center;
   /* background: white; */
-  height: 310px;
-
-  /* background-image: url('images/Ireland.jpeg');
-  background-size: cover; */
-  /* border: solid 10px black; */
+  /* height: 310px; */
 }
 
 nav {
@@ -43,7 +61,9 @@ nav {
 }
 
 nav a{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+  /* font-family: 'Permanent Marker', cursive; */
   display: fixed;
   color: white;
   text-decoration: none;
@@ -52,35 +72,49 @@ nav a{
 
 /* fix hover effect */
 nav a:hover{
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 h1{
-  color: white;
-  -webkit-text-stroke: .3px white;
+  color: black;
+  /* margin-top: 100px; */
+  /* margin-bottom: 90px; */
+  /* -webkit-text-stroke: .3px #cccc99; */
   /* padding-top: 30px; */
   font-size: 90px;
   text-orientation: mixed;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Nerko One', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
   display:inline-block;
 }
 
 
 h2{
   margin-top: 20px;
+  margin-bottom: 0;
   font-size: 40px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Nerko One', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-size: 70px;
   text-align: center;
 }
 
 #portfolio{
-  margin-top: 50px;
+  /* margin-top: 50px; */
   border: solid 3px black;
   box-shadow: 3px 3px 3px 3px black;
   /* display: block; */
   padding: 5px;
-  background-color: #cccc99;
+  /* background-color: #cccc99; */
+  background-color: #ecf1f1;
+  background-image: url("images/textured-paper.png");
   font-family: 'Roboto Slab', serif;
+}
+
+#portfolio a{
+  display: block;
+  color: #ecf1f1;
+  font-size: 20px;
 }
 
 .project4, .project3, .project2, .project1{
@@ -90,17 +124,21 @@ h2{
   text-align: center;
   margin:20px;
   border: solid 2px black;
-  background-color: #ecf1f1;
-  background-image: url("images/textured-paper.png");
+  background-color: #cccc99;
+  /* background-color: #ecf1f1;
+  background-image: url("images/textured-paper.png"); */
   font-family: 'Roboto Slab', serif;
   box-shadow: 3px 3px #cccc99, 8px 8px black;
 }
 
 .project4 h3, .project3 h3, .project2 h3, .project1 h3{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Nerko One', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
   margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 45px;
+  color: #f5f5dc;
 }
 
 .project4 img, .project3 img, .project2 img, .project1 img{
