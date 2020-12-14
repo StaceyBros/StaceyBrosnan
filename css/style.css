@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-  max-width: 1034px;
+  width: 410px;
   margin: 0 auto;
   min-height: 100vh;
 }
@@ -59,7 +59,7 @@ nav {
 
 nav a{
   font-family: 'Nerko One', cursive;
-  font-size: 2rem;
+  font-size: 1.6rem;
   /* font-family: 'Permanent Marker', cursive; */
   display: fixed;
   text-align: center;
@@ -86,22 +86,29 @@ h1{
   display:inline-block;
 }
 
+#about_me{
+  margin-bottom: 34px;
+  padding: 37px;
+  border: solid 5px black;
+  background-color: #ecf1f1;
+  background-image: url("images/textured-paper.png");
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.25rem;
+  text-align: center;
+  box-shadow: 3px 3px 3px 3px black;
+}
 
 h2{
   margin-top: 20px;
-  margin-bottom: 0;
-  font-size: 40px;
+  margin-bottom: 15px;
   font-family: 'Nerko One', cursive;
-  /* font-family: 'Permanent Marker', cursive; */
   font-size: 70px;
   text-align: center;
 }
 
 #portfolio{
-  /* margin-top: 50px; */
   border: solid 3px black;
   box-shadow: 3px 3px 3px 3px black;
-  /* display: block; */
   padding: 5px;
   /* background-color: #cccc99; */
   background-color: #ecf1f1;
@@ -117,7 +124,7 @@ h2{
 }
 
 #portfolio a:hover{
-  -webkit-transform:scale(1.1);
+  -webkit-transform:scale(1.01);
   transition:all 0.20s ease;
 }
 
@@ -126,16 +133,15 @@ h2{
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
-  margin:20px;
   border: solid 2px black;
   background-color: #cccc99;
   /* background-color: #ecf1f1;
   background-image: url("images/textured-paper.png"); */
   font-family: 'Roboto Slab', serif;
   box-shadow: 3px 3px #cccc99, 8px 8px black;
-  width: 470px;
+  width: 310px;
   font-size: 1.25rem;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .project4 h3, .project3 h3, .project2 h3, .project1 h3{
@@ -158,19 +164,6 @@ h2{
   text-align: left;
 }
 
-#about_me{
-  margin-top: 30px;
-  padding: 20px;
-  border: solid 5px black;
-  background-color: #cccc99;
-  font-family: 'Roboto Slab', serif;
-  font-size: 1.25rem;
-  text-align: center;
-  box-shadow: 3px 3px 3px 3px black;
-  width: 470px;
-  margin: 0 auto;
-}
-
 .skills{
   margin: 30px auto;
   background-color: #ecf1f1;
@@ -183,12 +176,17 @@ h2{
   margin: 0 auto; */
 }
 
+.skills h2{
+  font-size: 45px;
+}
+
 .skills_front, .skills_back, .other{
   margin: 10px;
   justify-content: center;
   background-color: #ecf1f1;
   border: solid 5px #cccc99;
   box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99;
+  width: 120px;
 }
 
 ul{
@@ -214,7 +212,19 @@ footer{
   padding: 20px;
 }
 
+@media (min-width: 400px){
+
+}
+
 @media (min-width: 500px){
+
+  .container{
+        width: 460px;
+      }
+
+  .project4, .project3, .project2, .project1{
+        width: 340px;
+      }
 
   nav {
       padding-top: 1.5em;
@@ -231,6 +241,14 @@ footer{
       font-size: 1.5rem;
       }
 
+  .container{
+        width: 560px;
+      }
+
+  .project4, .project3, .project2, .project1{
+        width: 420px;
+      }
+
   .bg-image {
       height: 310px;
     }
@@ -238,10 +256,11 @@ footer{
   .skills_front, .skills_back, .other{
     margin: 20px;
     padding: 20px;
+    width: 30%;
   }
 
   .project4:hover img, .project3:hover img, .project2:hover img, .project1:hover img{
-      -webkit-transform:scale(1.1);
+      -webkit-transform:scale(1.03);
       transition:all 0.20s ease;
   }
 
@@ -256,17 +275,33 @@ footer{
 
   @media (min-width: 700px){
 
+    .container{
+      width: 700px;
+    }
+
   h1{
     font-size: 7rem;
   }
 
+  h2{
+    font-size: 90px;
+  }
+
+  .project4 h3, .project3 h3, .project2 h3, .project1 h3{
+    font-size: 65px;
+    margin-bottom: 5px;
+  }
+
   .project2, .project4{
+    margin-left: 20px;
     width: 43%;
+    margin-bottom: 30px;
   }
 
   .project3, .project1{
-    margin-left: auto;
+    margin-right: 20px;
     width: 43%;
+    margin-bottom: 30px;
   }
 
   nav a{
@@ -274,7 +309,16 @@ footer{
   }
 }
 
+@media (min-width: 900px){
+  .container{
+        width: 860px;
+      }
 
+@media (min-width: 1050px){
+  .container{
+    width: 1043px;
+  }
+}
 
 /* .skills_front, .skills_back, .other{
   padding: 20px;
