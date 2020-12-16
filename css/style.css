@@ -67,11 +67,19 @@ nav a{
 }
 
 /* fix hover effect */
-nav a:hover{
+/* nav a:hover{
+  transition:all 2s ease;
   font-size: 3.5rem;
-  transition:all 0.20s ease;
   color:#f5f5dc;
+} */
+
+nav a:hover{
+    transition:all .5s ease;
+    color:#f5f5dc;
+    text-decoration: underline;
 }
+
+
 
 h1{
   color: black;
