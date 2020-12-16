@@ -51,7 +51,7 @@ nav {
   position: fixed;
   top: 0;
   width: 98%;
-  /* font-size: 1.3rem; */
+  text-align: center;
   background-color: black;
   padding: 1em;
   z-index: 1;
@@ -59,13 +59,11 @@ nav {
 
 nav a{
   font-family: 'Nerko One', cursive;
-  font-size: 1.6rem;
-  /* font-family: 'Permanent Marker', cursive; */
-  display: fixed;
+  font-size: 1.75rem;
   text-align: center;
   color: white;
   text-decoration: none;
-  padding: .5em;
+  padding-right: 1.2rem;
 }
 
 /* fix hover effect */
@@ -75,14 +73,9 @@ nav a:hover{
 
 h1{
   color: black;
-  /* margin-top: 100px; */
-  /* margin-bottom: 90px; */
-  /* -webkit-text-stroke: .3px #cccc99; */
-  /* padding-top: 30px; */
   font-size: 4rem;
   text-orientation: mixed;
   font-family: 'Nerko One', cursive;
-  /* font-family: 'Permanent Marker', cursive; */
   display:inline-block;
 }
 
@@ -135,8 +128,6 @@ h2{
   text-align: center;
   border: solid 2px black;
   background-color: #cccc99;
-  /* background-color: #ecf1f1;
-  background-image: url("images/textured-paper.png"); */
   font-family: 'Roboto Slab', serif;
   box-shadow: 3px 3px #cccc99, 8px 8px black;
   width: 310px;
@@ -230,8 +221,8 @@ li{
 }
 
 .email textarea{
-  height: 10rem;
-  width: 20rem;
+  height: 20rem;
+  width: 22rem;
 }
 
 .email #submit{
@@ -251,10 +242,6 @@ footer{
 .icons img{
   display: inline;
   padding: 20px;
-}
-
-@media (min-width: 400px){
-
 }
 
 @media (min-width: 500px){
@@ -279,7 +266,6 @@ footer{
   nav {
       padding-top: 1.5em;
       text-align: right;
-      font-size: 1.5rem;
       }
 
   .container{
@@ -305,16 +291,25 @@ footer{
       transition:all 0.20s ease;
   }
 
-  nav a{
-      padding-right: 20px;
+  .email textarea{
+        height: 20rem;
+        width: 30rem;
       }
+
+  .email h3{
+        font-size: 4.5rem;
+    }
   }
 
-  @media (min-width: 700px){
+@media (min-width: 700px){
 
-    .container{
+  .container{
       width: 700px;
     }
+    nav a{
+          font-size: 2rem;
+          padding-right: 3rem;
+      }
 
   h1{
     font-size: 7rem;
@@ -344,11 +339,28 @@ footer{
   nav a{
     font-size: 40px;
   }
+
+  .email h3{
+        font-size: 5.5rem;
+  }
+
+  .email textarea{
+        width: 35rem;
+  }
+
 }
 
 @media (min-width: 900px){
   .container{
         width: 860px;
+      }
+
+  .email input{
+        width: 25rem;
+      }
+
+  .email textarea{
+        width: 40rem;
       }
 
 @media (min-width: 1050px){
