@@ -164,7 +164,7 @@ h2{
   text-align: left;
 }
 
-.skills{
+#skills{
   margin: 30px auto;
   background-color: #ecf1f1;
   background-image: url("images/textured-paper.png");
@@ -172,11 +172,9 @@ h2{
   justify-content: center;
   border: solid 1px black;
   box-shadow: 2px 2px 2px 2px black;
-  /* width: 470px;
-  margin: 0 auto; */
 }
 
-.skills h2{
+#skills h2{
   font-size: 45px;
 }
 
@@ -198,6 +196,49 @@ li{
   padding: 10px;
   text-align: center;
   font-weight: bold;
+}
+
+.email{
+  border: solid 3px black;
+  box-shadow: 3px 3px 3px 3px black;
+  padding: 5px;
+  background-color: #cccc99;
+  margin-bottom: 30px;
+}
+
+.email h3{
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Nerko One', cursive;
+  margin: 1rem;
+  color: black;
+}
+
+.email input, .email textarea{
+  font-family: 'Roboto Slab', serif;
+  display: block;
+  text-align: center;
+  border: solid .3px black;
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: #ecf1f1;
+  width: 15rem;
+  height: 2rem;
+  margin: 15px auto;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 5px;
+}
+
+.email textarea{
+  height: 10rem;
+  width: 20rem;
+}
+
+.email #submit{
+  width: 10rem;
+  color: #f5f5dc;
+  background-color: black;
+  padding-bottom: 32px;
 }
 
 footer{
@@ -264,10 +305,6 @@ footer{
       transition:all 0.20s ease;
   }
 
-    /* nav {
-      text-align: right;
-
-    } */
   nav a{
       padding-right: 20px;
       }
