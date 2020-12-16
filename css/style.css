@@ -66,13 +66,6 @@ nav a{
   padding-right: 1.2rem;
 }
 
-/* fix hover effect */
-/* nav a:hover{
-  transition:all 2s ease;
-  font-size: 3.5rem;
-  color:#f5f5dc;
-} */
-
 nav a:hover{
     transition:all .5s ease;
     color:#f5f5dc;
@@ -232,6 +225,7 @@ li{
 .email textarea{
   height: 20rem;
   width: 22rem;
+  text-align: left;
 }
 
 .email #submit{
