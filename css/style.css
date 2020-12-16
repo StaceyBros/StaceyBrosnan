@@ -69,6 +69,8 @@ nav a{
 /* fix hover effect */
 nav a:hover{
   font-size: 3.5rem;
+  transition:all 0.20s ease;
+  color:#f5f5dc;
 }
 
 h1{
@@ -103,7 +105,6 @@ h2{
   border: solid 3px black;
   box-shadow: 3px 3px 3px 3px black;
   padding: 5px;
-  /* background-color: #cccc99; */
   background-color: #ecf1f1;
   background-image: url("images/textured-paper.png");
   font-family: 'Roboto Slab', serif;
@@ -258,7 +259,7 @@ footer{
       padding-top: 1.5em;
       text-align: center;
       font-size: 1.3rem;
-      }
+    }
 }
 
 @media (min-width: 600px){
@@ -306,10 +307,11 @@ footer{
   .container{
       width: 700px;
     }
-    nav a{
-          font-size: 2rem;
-          padding-right: 3rem;
-      }
+
+  nav a{
+      font-size: 2rem;
+      padding-right: 3rem;
+    }
 
   h1{
     font-size: 7rem;
@@ -368,52 +370,3 @@ footer{
     width: 1043px;
   }
 }
-
-/* .skills_front, .skills_back, .other{
-  padding: 20px;
-  margin: 20px;
-  background-color: #ecf1f1;
-  border: solid 5px #cccc99;
-  box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99;
-} */
-
-
-
-
-/* @media (max-width: 900px) {
-  nav{
-    padding-top: 1.5em;
-    text-align: center;
-    font-size: 1.3rem;
-    width: 100vh;
-  }
-  body{
-    width: 101vh;
-  }
-
-  .name{
-    margin: 30px, auto;
-  }
-
-  .container{
-    margin: 0 auto;
-  }
-
-  .project4, .project3, .project2, .project1{
-    padding: 20px;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    font-size: 20px;
-  }
-
-  .skills{
-    padding: 0px 30px 0px 30px;
-    margin: 0 auto;
-    width: 91vh;
-  }
-
-  footer{
-    width: 100vh;
-  }
-} */
