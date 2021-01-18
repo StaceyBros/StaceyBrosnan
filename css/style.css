@@ -177,13 +177,36 @@ h2{
   font-size: 45px;
 }
 
-.skills_front, .skills_back, .other{
+.skills{
   margin: 10px;
   justify-content: center;
   background-color: #ecf1f1;
   border: solid 5px #cccc99;
   box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99;
+  height: 100px;
+  width: 200px;
+  display: block;
+    margin-top: 0;
+    position: absolute;
+  /* padding: 50px; */
+}
+
+.skills_front, .skills_back, .other{
+  margin: 10px;
+  padding-top: 20px;
+  justify-content: center;
+  background-color: #ecf1f1;
+  border: solid 5px #cccc99;
+  box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99;
   width: 120px;
+}
+
+.skills_front{
+  padding-top: 90px;
+}
+
+.other{
+  padding-top: 90px;
 }
 
 ul{
@@ -296,8 +319,20 @@ footer{
   .skills_front, .skills_back, .other{
     margin: 20px;
     padding: 20px;
-    width: 30%;
+    width: 23%;
   }
+
+  .skills_front{
+    padding-top: 120px;
+  }
+
+  .other{
+    padding-top: 120px;
+  }
+
+  #skills h2 {
+    font-size: 60px;
+}
 
   .project4:hover img, .project3:hover img, .project2:hover img, .project1:hover img{
       -webkit-transform:scale(1.03);
@@ -353,6 +388,18 @@ footer{
   nav a{
     font-size: 40px;
   }
+
+  .skills_front{
+    padding-top: 120px;
+  }
+
+  .other{
+    padding-top: 120px;
+  }
+
+  #skills h2 {
+    font-size: 69px;
+}
 
   .email h3{
         font-size: 5.5rem;
