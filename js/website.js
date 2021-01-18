@@ -1,6 +1,6 @@
 const sendEmail = function () {
 
-  $( "#searchForm" ).submit(function( event ) {
+  $( "#contact" ).submit(function( event ) {
 
   // Stop form from submitting normally
   event.preventDefault();
@@ -24,7 +24,7 @@ const sendEmail = function () {
   }
 
 const sentEmail = function () {
-
+    event.preventDefault();
 }
 
 
