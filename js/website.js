@@ -31,5 +31,6 @@ const sentEmail = function () {
 $(document).ready( function () {
     $('#submit').on('click', function(){
       sendEmail();
+      event.preventDefault();
     });
 });
