@@ -76,12 +76,10 @@ nav a:hover{
 
 h1{
   color: black;
-  font-size: 4rem;
+  font-size: 4.1rem;
   text-orientation: mixed;
   font-family: 'Nerko One', cursive;
   display:inline-block;
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 #about_me{
@@ -92,7 +90,7 @@ h1{
   background-color: #ecf1f1;
   background-image: url("images/textured-paper.png");
   font-family: 'Roboto Slab', serif;
-  font-size: 1.25rem;
+  /* font-size: 1.2rem; */
   text-align: center;
   box-shadow: 3px 3px 3px 3px black;
 }
@@ -101,7 +99,7 @@ h2{
   margin-top: 20px;
   margin-bottom: 15px;
   font-family: 'Nerko One', cursive;
-  font-size: 70px;
+  font-size: 3.8rem;
   text-align: center;
 }
 
