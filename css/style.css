@@ -172,6 +172,7 @@ h2{
 
 #skills h2{
   font-size: 45px;
+  margin-bottom: 25px;
 }
 
 .skills{
@@ -198,8 +199,26 @@ h2{
   width: 120px;
 }
 
+.html{
+  margin-top: 15px;
+  margin-bottom: -16px;
+}
+
+.react {
+  margin-bottom: -13px;
+}
+
+.underscore {
+  margin-top: 15px;
+  width: 90px;
+}
+
+.ajax {
+  width: 30px;
+}
+
 .skills_front{
-  padding-top: 90px;
+  padding-top: 81px;
 }
 
 .other{
