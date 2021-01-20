@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-  width: 410px;
+  width: 300px;
   margin: 0 auto;
   min-height: 100vh;
 }
@@ -29,7 +29,7 @@ body{
   margin: 0 auto;
   z-index: -2;
   overflow: hidden;
-  width: 100%;
+  width: 120%;
   transform: skewY(-5deg);
   bottom: -150px;
 
@@ -85,6 +85,8 @@ h1{
 #about_me{
   scroll-margin-top: 6rem;
   margin-bottom: 34px;
+  padding-left: 7px;
+  padding-right: 7px;
   padding-bottom: 37px;
   border: solid 5px black;
   background-color: #ecf1f1;
@@ -134,7 +136,7 @@ h2{
   background-color: #cccc99;
   font-family: 'Roboto Slab', serif;
   box-shadow: 3px 3px #cccc99, 8px 8px black;
-  width: 310px;
+  width: 210px;
   font-size: 1.25rem;
   margin: 30px auto;
 }
@@ -171,8 +173,8 @@ h2{
 }
 
 #skills h2{
-  font-size: 45px;
-  margin-bottom: 25px;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
 
 .skills{
@@ -181,8 +183,8 @@ h2{
   background-color: #ecf1f1;
   border: solid 5px #cccc99;
   box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99;
-  height: 100px;
-  width: 200px;
+  /* height: 100px; */
+  /* width: 10px; */
   display: block;
     margin-top: 0;
     position: absolute;
@@ -196,7 +198,8 @@ h2{
   background-color: #ecf1f1;
   border: solid 5px #cccc99;
   box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99;
-  width: 120px;
+  width: 75px;
+  font-size: .69rem;
 }
 
 .html{
@@ -210,7 +213,7 @@ h2{
 
 .underscore {
   margin-top: 15px;
-  width: 90px;
+  width: 60px;
 }
 
 .ajax {
@@ -273,7 +276,7 @@ li{
 
 .email textarea{
   height: 20rem;
-  width: 22rem;
+  width: 17rem;
   text-align: left;
 }
 
@@ -296,6 +299,31 @@ footer{
   padding: 20px;
 }
 
+@media (min-width: 410px){
+  .container{
+        width: 410px;
+      }
+
+  .underscore {
+        margin-top: 15px;
+        width: 90px;
+      }
+
+  .skills_front, .skills_back, .other{
+    font-size: .9rem;
+    width: 120px;
+  }
+
+  #skills h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .email textarea{
+    height: 20rem;
+    width: 22rem;
+  }
+}
 @media (min-width: 500px){
 
   .container{
