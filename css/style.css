@@ -315,6 +315,9 @@ footer{
           margin-top: 15px;
           width: 90px;
         }
+    .project4, .project3, .project2, .project1{
+      width: 300px;
+    }
 
     .skills_front, .skills_back, .other{
       font-size: .9rem;
