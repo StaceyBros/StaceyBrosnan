@@ -86,14 +86,14 @@ h1{
 #about_me{
   scroll-margin-top: 6rem;
   margin-bottom: 34px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 37px;
   border: solid 5px black;
   background-color: #ecf1f1;
   background-image: url("images/textured-paper.png");
   font-family: 'Roboto Slab', serif;
-  /* font-size: 1.2rem; */
+  font-size: 1.4rem;
   text-align: center;
   box-shadow: 3px 3px 3px 3px black;
 }
@@ -300,12 +300,6 @@ footer{
   padding: 20px;
 }
 
-/* @media (min-width: 410px){
-  .container{
-        width: 320px;
-      }
-} */
-
 @media (min-width: 410px){
     .container{
           width: 410px;
@@ -315,6 +309,7 @@ footer{
           margin-top: 15px;
           width: 90px;
         }
+
     .project4, .project3, .project2, .project1{
       width: 300px;
     }
@@ -362,11 +357,6 @@ footer{
   nav {
       padding-top: 1.5em;
     }
-
-  /* nav a{
-      font-size: 2rem;
-      padding-right: 1.72rem;
-    } */
 
   .container{
         width: 560px;
@@ -420,7 +410,7 @@ footer{
     }
 
   nav a{
-      font-size: 2rem;
+      font-size: 2.5rem;
       padding-right: 3rem;
     }
 
@@ -449,9 +439,9 @@ footer{
     margin-bottom: 30px;
   }
 
-  nav a{
+  /* nav a{
     font-size: 40px;
-  }
+  } */
 
   .skills_front{
     padding-top: 105px;
