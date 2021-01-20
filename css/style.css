@@ -85,7 +85,7 @@ h1{
 #about_me{
   scroll-margin-top: 6rem;
   margin-bottom: 34px;
-  padding: 37px;
+  padding-bottom: 37px;
   border: solid 5px black;
   background-color: #ecf1f1;
   background-image: url("images/textured-paper.png");
