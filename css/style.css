@@ -66,6 +66,7 @@ nav a{
   color: white;
   text-decoration: none;
   padding-right: 1rem;
+  /* display: table; */
 }
 
 nav a:hover{
@@ -299,59 +300,70 @@ footer{
   padding: 20px;
 }
 
-@media (min-width: 410px){
+/* @media (min-width: 410px){
   .container{
-        width: 410px;
+        width: 320px;
       }
+} */
 
-  .underscore {
-        margin-top: 15px;
-        width: 90px;
-      }
+@media (min-width: 410px){
+    .container{
+          width: 410px;
+        }
 
-  .skills_front, .skills_back, .other{
-    font-size: .9rem;
-    width: 120px;
-  }
+    .underscore {
+          margin-top: 15px;
+          width: 90px;
+        }
 
-  #skills h2{
-    font-size: 45px;
-    margin-bottom: 20px;
-  }
+    .skills_front, .skills_back, .other{
+      font-size: .9rem;
+      width: 120px;
+    }
 
-  .email textarea{
-    height: 20rem;
-    width: 22rem;
-  }
+    #skills h2{
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
 
-  nav a{
-    font-size: 1.75rem;
-    padding-right: 1.2rem;
-  }
+    .email textarea{
+      height: 20rem;
+      width: 22rem;
+    }
+
+    nav a{
+      font-size: 1.8rem;
+      padding-right: 1.2rem;
+    }
 }
 @media (min-width: 500px){
 
-  .container{
-        width: 460px;
-      }
+    .container{
+          width: 460px;
+        }
 
-  .project4, .project3, .project2, .project1{
-        width: 340px;
-      }
+    .project4, .project3, .project2, .project1{
+          width: 340px;
+        }
 
-  nav {
-      padding-top: 1.5em;
-      text-align: center;
-      font-size: 1.3rem;
-    }
+    nav {
+        padding-top: 1.5em;
+        text-align: center;
+        font-size: 1.3rem;
+        width: 100%;
+      }
 }
 
 @media (min-width: 600px){
 
   nav {
       padding-top: 1.5em;
-      text-align: right;
-      }
+    }
+
+  /* nav a{
+      font-size: 2rem;
+      padding-right: 1.72rem;
+    } */
 
   .container{
         width: 560px;
