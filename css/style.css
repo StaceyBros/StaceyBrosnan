@@ -95,8 +95,6 @@ h1{
   padding-bottom: 37px;
   border: solid 5px black;
   background-color: #fed8b1;
-  /* background-color: aliceblue; */
-  /* background-color: #FFFEF2; */
   /* background-color: #ecf1f1;
   background-image: url("images/textured-paper.png"); */
   font-family: 'Roboto Slab', serif;
@@ -111,6 +109,23 @@ h2{
   font-family: 'Nerko One', cursive;
   font-size: 3.8rem;
   text-align: center;
+}
+
+#resume{
+  width: 140px;
+  height: 60px;
+  font-family: 'Nerko One', cursive;
+  font-size: 1.7rem;
+  /* color: #660066; */
+  color: #FFFEF2;
+  background-color: #660066;
+  border-radius: 1rem;
+  box-shadow: 14px 12px 5px -7px black;
+}
+
+#resume:hover{
+  -webkit-transform:scale(1.07);
+  transition:all .2s ease;
 }
 
 #portfolio{
@@ -130,6 +145,10 @@ h2{
   /* color: #ecf1f1; */
   font-size: 20px;
   font-size: 1.5rem;
+  background-color: #fed8b1;
+  border: solid 1px black;
+  box-shadow: 10px 12px 5px -9px black;
+  border-radius: .2rem;
 }
 
 #portfolio a:hover{
@@ -195,7 +214,6 @@ h2{
 .skills{
   margin: 10px;
   justify-content: center;
-  /* background-color: #fadadd; */
   /* background-color: #ecf1f1; */
   /* border: solid 5px #cccc99; */
   border: solid 5px #660066;
@@ -213,7 +231,6 @@ h2{
   margin: 10px;
   padding-top: 20px;
   justify-content: center;
-  /* background-color: #ffe4cd; */
   background-color: #FFFEF2;
   /* background-color: #ecf1f1; */
   /* border: solid 5px #cccc99; */
