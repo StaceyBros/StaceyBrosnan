@@ -7,7 +7,6 @@ body{
   flex-direction: column;
   margin: 0 auto;
   padding: 0;
-  /* background: linear-gradient(#cccc99, #ecf1f1); */
   background-color: black;
   background-image: url("images/textured-paper.png");
 }
@@ -19,10 +18,7 @@ body{
 }
 
 .bg-image {
-  /* background-color: #ecf1f1; */
   background-color: #fed8b1;
-  /* background-color: aliceblue; */
-  /* background-image: url("images/textured-paper.png"); */
   background-color:
   border: solid 3px black;
   box-shadow: 3px 3px 3px 3px black;
@@ -62,19 +58,16 @@ nav {
 }
 
 nav a{
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nerko One';
   font-size: 1.5rem;
   text-align: center;
   color: #FFFEF2;
-  /* color: white; */
   text-decoration: none;
   padding-right: 1rem;
-  /* display: table; */
 }
 
 nav a:hover{
     transition:all .5s ease;
-    /* color:#f5f5dc; */
     color: #fed8b1;
     text-decoration: underline;
 }
@@ -83,7 +76,7 @@ h1{
   color: black;
   font-size: 4.1rem;
   text-orientation: mixed;
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nerko One';
   display:inline-block;
 }
 
@@ -95,8 +88,6 @@ h1{
   padding-bottom: 37px;
   border: solid 5px black;
   background-color: #fed8b1;
-  /* background-color: #ecf1f1;
-  background-image: url("images/textured-paper.png"); */
   font-family: 'Roboto Slab', serif;
   font-size: 1.1rem;
   text-align: center;
@@ -106,7 +97,7 @@ h1{
 h2{
   margin-top: 20px;
   margin-bottom: 15px;
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nerko One';
   font-size: 3.8rem;
   text-align: center;
 }
@@ -114,9 +105,8 @@ h2{
 #resume{
   width: 140px;
   height: 60px;
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nerko One';
   font-size: 1.7rem;
-  /* color: #660066; */
   color: #FFFEF2;
   background-color: #660066;
   border-radius: 1rem;
@@ -134,15 +124,12 @@ h2{
   box-shadow: 3px 3px 3px 3px black;
   padding: 5px;
   background-color: #fed8b1;
-  /* background-color: #ecf1f1;
-  background-image: url("images/textured-paper.png"); */
   font-family: 'Roboto Slab', serif;
 }
 
 #portfolio a{
   display: block;
   color: #660066;
-  /* color: #ecf1f1; */
   font-size: 20px;
   font-size: 1.5rem;
   background-color: #fed8b1;
@@ -163,9 +150,7 @@ h2{
   text-align: center;
   border: solid 2px black;
   background-color: #FFFEF2;
-  /* background-color: #cccc99; */
   font-family: 'Roboto Slab', serif;
-  /* box-shadow: 3px 3px #cccc99, 8px 8px black; */
   box-shadow: 3px 3px #660066, 8px 8px black;
   width: 170px;
   font-size: 1.1rem;
@@ -179,8 +164,6 @@ h2{
   margin-bottom: 0;
   text-align: center;
   font-size: 45px;
-  /* color: #f5f5dc; */
-  /* color: #660066; */
   color: black;
 }
 
@@ -198,8 +181,6 @@ h2{
   scroll-margin-top: 6rem;
   margin: 30px auto;
   background-color: #fed8b1;
-  /* background-color: #ecf1f1;
-  background-image: url("images/textured-paper.png"); */
   display: flex;
   justify-content: center;
   border: solid 1px black;
@@ -214,17 +195,11 @@ h2{
 .skills{
   margin: 10px;
   justify-content: center;
-  /* background-color: #ecf1f1; */
-  /* border: solid 5px #cccc99; */
   border: solid 5px #660066;
-  /* box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99; */
   box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #660066;
-  /* height: 100px; */
-  /* width: 10px; */
   display: block;
-    margin-top: 0;
-    position: absolute;
-  /* padding: 50px; */
+  margin-top: 0;
+  position: absolute;
 }
 
 .skills_front, .skills_back, .other{
@@ -232,11 +207,8 @@ h2{
   padding-top: 20px;
   justify-content: center;
   background-color: #FFFEF2;
-  /* background-color: #ecf1f1; */
-  /* border: solid 5px #cccc99; */
   border: solid 5px #660066;
-  /* box-shadow: 5px 5px 5px 5px black, 1px 5px 5px 5px #cccc99; */
-  box-shadow: 17px 12px 5px -1px black;
+  box-shadow: 11px 5px 6px -1px black;
   width: 60px;
   font-size: .5rem;
 }
@@ -283,15 +255,6 @@ li{
   scroll-margin-top: 6rem;
 }
 
-.contact_details{
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 70px auto;
-  grid-template-rows: 33% 70px auto;
-  margin-bottom: 10px;
-  font-size: .75rem;
-}
-
 .looking_for{
   margin: auto;
   max-width: 700px;
@@ -299,78 +262,26 @@ li{
   font-family: 'Roboto Slab', serif;
   font-size: 1.1rem;
 }
-
-#item1 {
-  grid-column-start: 1;
-  grid-row: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 35px;
+.contact_details{
+  margin: auto;
+  margin-top: 15px;
+  display: table;
 }
 
-#item2 {
-  grid-column-start: 1;
-  grid-row: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icon-link {
+ display: flex;
+ align-items: center;
+}
+.icon-link:hover {
+  color: #9C409A;
+  -webkit-transform:scale(1.07);
+  transition:all .2s ease;
 }
 
-#item3 {
-  grid-column-start: 1;
-  grid-row: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#item4 {
-  grid-column-start: 1;
-  grid-row: 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-}
-
-.item5 {
-  grid-column-start: 2;
-  grid-row: 1;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  padding-top: 35px;
-  padding-left: 5px;
-}
-
-.item6 {
-  grid-column-start: 2;
-  grid-row: 2;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  padding-top: 7px;
-  padding-left: 5px;
-}
-
-.item7 {
-  grid-column-start: 2;
-  grid-row: 3;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  padding-left: 5px;
-}
-
-.item8 {
-  grid-column-start: 2;
-  grid-row: 4;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  padding-top: 10px;
-  padding-left: 5px;
+.icon-link svg,
+.icon-link img {
+ width: 40px;
+ margin-right: 10px;
 }
 
 a{
@@ -378,34 +289,24 @@ a{
   color: black;
 }
 
-.email a:hover{
-  -webkit-transform:scale(1.07);
-  transition:all .2s ease;
-  /* text-decoration: underline; */
-  color: white;
-}
-
-
 .email{
   border: solid 3px black;
   box-shadow: 3px 3px 3px 3px black;
   padding: 13px;
   background-color: #fed8b1;
-  /* background-color: #cccc99; */
-  /* background-image: url("images/textured-paper.png"); */
   margin-bottom: 30px;
 }
 
 .email h3{
   font-size: 3rem;
   text-align: center;
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nerko One';
   margin: 1rem;
   color: black;
 }
 
 .email h3{
-  font-family: 'Nerko One', cursive;
+  font-family: 'Nerko One';
 }
 
 footer{
@@ -573,11 +474,6 @@ footer{
       -webkit-transform:scale(1.03);
       transition:all 0.20s ease;
   }
-
-  /* .email textarea{
-        height: 20rem;
-        width: 30rem;
-      } */
 
   .email h3{
         font-size: 4.5rem;
